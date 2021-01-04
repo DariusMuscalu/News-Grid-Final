@@ -1,0 +1,114 @@
+/* Utility */
+.container {
+    padding: 0 1rem;
+}
+
+/*  Navigation */
+#main-nav {
+    position: relative;
+}
+
+#main-nav {
+    justify-content: center;
+}
+
+#main-nav .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-nav .social {
+    margin: 1.5rem 0;
+}
+
+#main-nav ul {
+    margin-bottom: 0.5rem;
+}
+
+#main-nav ul li a {
+    padding: 1rem;
+}
+
+/* Showcase */
+#showcase .showcase-container {
+    display: flex;
+    font-size: 1rem;
+}
+
+/* Home Articles */
+#home-articles .articles-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#home-articles .articles-container > *:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+#home-articles .articles-container > *:last-child{
+    display: flex;
+    flex-direction: column;
+}
+/* Footer */
+#main-footer .footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-footer .footer-container input[type='email'] {
+    width: 100%;
+}
+
+#main-footer .footer-container input[type='submit'] {
+    width: 100%;
+}
+
+#main-footer .footer-container .btn {
+    width: 100%;
+    text-align: center;
+}
+
+/* About Page */
+#about .grid-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#about .item-1 {
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 2;
+}
+
+#about .item-1 h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#about .item-2 {
+    width: 100%;
+}
+
+/* Article Page */
+#article .grid-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#article .grid-container > :nth-child(2) h2 {
+    font-size: 2.3rem;
+}
+
+#article .meta {
+    font-size: 1rem;
+}
+
+#article small {
+    margin-right: 0.5rem;
+}
+
+#article .meta .category-ent {
+    font-size: 0.5rem;
+}
